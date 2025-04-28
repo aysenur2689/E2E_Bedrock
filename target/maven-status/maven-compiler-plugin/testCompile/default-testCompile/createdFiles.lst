@@ -1,0 +1,6 @@
+pages\BasePage.class
+stepdefinitions\Hooks.class
+pages\HomePage.class
+locators\HomePageLocators.class
+runners\TestRunner.class
+stepdefinitions\HomePageSteps.class

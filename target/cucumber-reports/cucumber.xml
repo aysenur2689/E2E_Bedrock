@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="11.991" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Bedrock Streaming Home Page Test" name="Home page title and menu control" time="11.423">
+<system-out><![CDATA[
+Given User navigates to "https://bedrockstreaming.com/".....................passed
+When User checks the home page title........................................passed
+And User sees "Solutions" tab in the menu...................................passed
+And User clicks on the Solutions menu.......................................passed
+And User clicks on the "Contact" button.....................................passed
+Then Contact page opens and the title is "Contact us".......................passed
+When User fills first name as "Ayse Nur"....................................passed
+And User fills last name as "TETIK".........................................passed
+And User fills company as "Bedrock".........................................passed
+And User fills job title as "QA testeuse"...................................passed
+And User fills email as "aysenur2044@hotmail.com"...........................passed
+And User fills phone as "0769290691"........................................passed
+And User fills message as "Hello !".........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
