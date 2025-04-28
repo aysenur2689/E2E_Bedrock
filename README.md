@@ -19,29 +19,21 @@ This framework is designed for automated end-to-end testing of the Bedrock websi
 ## 🧩 Project Structure
 ```
 src/
-├── main/
-│   └── java/
-│       └── com/
-│           └── bedrock/
-│               └── utils/
-│                   ├── ConfigReader.java
-│                   └── WebDriverManager.java
 └── test/
     └── java/
-        ├── com/
-        │   └── bedrock/
-        │       ├── hooks/
-        │       │   └── Hooks.java
-        │       ├── locators/
-        │       │   └── HomePageLocators.java
-        │       ├── pages/
-        │       │   ├── BasePage.java
-        │       │   └── HomePage.java
-        │       └── steps/
-        │           └── HomePageSteps.java
-        └── resources/
-            └── features/
-                └── BedrockHome.feature
+        ├── locators/
+        │   └── HomePageLocators.java
+        ├── pages/
+        │   ├── BasePage.java
+        │   └── HomePage.java
+        ├── runners/
+        │   └── TestRunner.java
+        └── stepdefinitions/
+            ├── Hooks.java
+            └── HomePageSteps.java
+    └── resources/
+        └── features/
+            └── BedrockHome.feature
 ```
 
 ## 📝 Example Test Scenario
